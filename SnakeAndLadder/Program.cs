@@ -42,6 +42,10 @@
                 Console.WriteLine("the position of player now  " + PlayerPosition);
 
             }
+            if(PlayerPosition==100)
+            {
+                Console.WriteLine("the player has won after " + playerNumberOfRolls  + "  dice of rolls");
+            }
         }
     }
 }
