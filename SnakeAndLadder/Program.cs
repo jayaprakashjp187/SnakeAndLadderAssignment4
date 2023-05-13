@@ -34,6 +34,10 @@
                 {
                     PlayerPosition = 0;
                 }
+                if(PlayerPosition > 100)
+                {
+                    PlayerPosition = 100;
+                }
 
                 Console.WriteLine("the position of player now  " + PlayerPosition);
 
